@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>M O T O C K</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Custom CSS */
+        .banner {
+            background-image: url('https://www.yamaha-motor.com.br/file/v3572142892160861451/products/30016.faixa1_01.banner.desktop.jpg');
+            background-size: cover;
+            background-position: center;
+            height: 500px;
+            color: white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 3rem;
+        }
+
+        .product-card {
+            border: 1px solid #ddd;
+            margin-bottom: 20px;
+            padding: 15px;
+            text-align: center;
+        }
+
+        .product-card img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        .footer {
+            background-color: #333;
+            color: white;
+            padding: 20px 0;
+            text-align: center;
+        }
+
+        .footer a {
+            color: white;
+            margin: 0 10px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">M O T O C K</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Motos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Banner -->
+    <section class="banner">
+        <div class="container">
+            <h1>Bem-vindo à Motock</h1>
+        </div>
+    </section>
+
+    <!-- Produtos -->
+    <section class="py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Moto 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <img src="https://www.formuladoconsorcio.com.br/adm-conslike/js/plugins/file-upload2/server/php/files/ativa-consorcios/644/imagem%2003.jpg" alt="Moto 1">
+                        <h2>Moto Esportiva</h2>
+                        <p>Preço: R$ 25.000</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <!-- Moto 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <img src="https://www.webmotors.com.br/wp-content/uploads/2020/06/22163856/Yamaha-Midnight-Star-950.jpeg" alt="Moto 2">
+                        <h2>Moto Custom</h2>
+                        <p>Preço: R$ 35.000</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+                <!-- Moto 3 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="product-card">
+                        <img src="https://motoadventure.com.br/wp-content/uploads/2020/11/Honda-X-ADV-2021-moto-adventure-1.jpg" alt="Moto 3">
+                        <h2>Moto Adventure</h2>
+                        <p>Preço: R$ 45.000</p>
+                        <button class="btn btn-primary">Comprar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2024 Loja de Motos - Todos os direitos reservados</p>
+            <p>
+                <a href="#">Facebook</a> | 
+                <a href="#">Instagram</a> | 
+                <a href="#">Twitter</a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
